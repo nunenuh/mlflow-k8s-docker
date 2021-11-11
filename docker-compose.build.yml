@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  '1.21':
+    build: ./docker-images/mlflow-1.21
+    image: nunenuh/mlflow-server:1.21
+  '1.19':
+    build: ./docker-images/mlflow-1.19
+    image: nunenuh/mlflow-server:1.19
